@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/plugins/bootstrap-3.4.1/css/bootstrap.css">
+	<script src="/static/plugins/bootstrap-3.4.1/js/bootstrap.js"></script>
+	<title>添加信息</title>
+</head>
+<body>
+	<div class="container clearfix">
+		<h1>添加信息</h1>
+		<form method="POST" action="add.php">
+		  <div class="form-group">
+		    <b>name</b><input type="text" class="form-control" name="name">
+		  </div>
+		  <div class="form-group">
+		    <b>age</b><input type="text" class="form-control" name="age">
+		  </div>
+		  <div class="form-group">
+		    <b>class</b>
+		    <select name="class" class="form-control">
+		    	<option>1</option>
+		    	<option>2</option>
+		    	<option>3</option>
+		    </select>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
